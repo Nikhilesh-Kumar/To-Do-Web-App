@@ -1,9 +1,10 @@
 {
   "dependencies": {
     "@tailwindcss/cli": "^4.2.2",
+    "sortablejs": "^1.15.7",
     "tailwindcss": "^4.2.2"
   },
   "scripts": {
-    "dev" : "npx @tailwindcss/cli -i ./src/assets/input.css -o ./src/assets/output.css --watch"
+    "dev": "npx @tailwindcss/cli -i ./src/assets/input.css -o ./src/assets/output.css --watch"
   }
 }
